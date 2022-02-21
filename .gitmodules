@@ -1,0 +1,12 @@
+[submodule "ropebwt2"]
+	path = ropebwt2
+	url = https://github.com/lh3/ropebwt2.git
+[submodule "bigbwt"]
+	path = bigbwt
+	url = https://github.com/alshai/Big-BWT.git
+[submodule "pfpebwt"]
+	path = pfpebwt
+	url = https://github.com/davidecenzato/PFP-eBWT.git
+[submodule "gsais"]
+	path = gsais
+	url = https://github.com/felipelouza/gsa-is.git
