@@ -1,5 +1,5 @@
 # BWT-variants-for-string-collections
-This repository contains all scripts to reproduce the experiments showed in the document "A theoretical and experimental analysis of BWT variants for string collections" submitted at CPM 2022.
+This repository contains all scripts to reproduce the experiments showed in the paper "A theoretical and experimental analysis of BWT variants for string collections" presented at CPM 2022.
 
 # Usage
 
@@ -66,6 +66,35 @@ python3 -u compute_all_dataset_properties.py --all
 ```
 All results will be stored in ./results/dataset_properties.txt
 
+# Citation 
+
+Please cite this work as follows:
+
+### conference version
+    @inproceedings{CenzatoL22,
+      author       = {Davide Cenzato and
+                      Zsuzsanna Lipt{\'{a}}k},
+      title        = {A Theoretical and Experimental Analysis of {BWT} Variants for String
+                      Collections},
+      booktitle    = {Proc. of 33rd Annual Symposium on Combinatorial Pattern Matching, {CPM} 2022,
+                      June 27-29, 2022, Prague, Czech Republic},
+      series       = {LIPIcs},
+      volume       = {223},
+      pages        = {25:1--25:18},
+      year         = {2022}
+}
+    
+### extended version
+    @article{CenzatoL22ext,
+      author       = {Davide Cenzato and
+                      Zsuzsanna Lipt{\'{a}}k},
+      title        = {A theoretical and experimental analysis of {BWT} variants for string
+                      collections},
+      journal      = {CoRR},
+      volume       = {abs/2202.13235},
+      year         = {2022}
+}
+    
 # External resources
 
 * [Big-BWT](https://github.com/alshai/Big-BWT.git)
