@@ -68,7 +68,7 @@ All results will be stored in ./results/dataset_properties.txt
 
 # Citation 
 
-Please cite this work as follows:
+Please, if you use this work in an academic setting cite the following papers:
 
 ### conference version
     @inproceedings{CenzatoL22,
@@ -81,8 +81,7 @@ Please cite this work as follows:
       series       = {LIPIcs},
       volume       = {223},
       pages        = {25:1--25:18},
-      year         = {2022}
-}
+      year         = {2022}}
     
 ### extended version
     @article{CenzatoL22ext,
@@ -92,8 +91,7 @@ Please cite this work as follows:
                       collections},
       journal      = {CoRR},
       volume       = {abs/2202.13235},
-      year         = {2022}
-}
+      year         = {2022}}
     
 # External resources
 
