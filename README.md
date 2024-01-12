@@ -66,33 +66,6 @@ python3 -u compute_all_dataset_properties.py --all
 ```
 All results will be stored in ./results/dataset_properties.txt
 
-# Citation 
-
-Please, if you use this work in an academic setting cite the following papers:
-
-### conference version
-    @inproceedings{CenzatoL22,
-      author       = {Davide Cenzato and
-                      Zsuzsanna Lipt{\'{a}}k},
-      title        = {A Theoretical and Experimental Analysis of {BWT} Variants for String
-                      Collections},
-      booktitle    = {Proc. of 33rd Annual Symposium on Combinatorial Pattern Matching, {CPM} 2022,
-                      June 27-29, 2022, Prague, Czech Republic},
-      series       = {LIPIcs},
-      volume       = {223},
-      pages        = {25:1--25:18},
-      year         = {2022}}
-    
-### extended version
-    @article{CenzatoL22ext,
-      author       = {Davide Cenzato and
-                      Zsuzsanna Lipt{\'{a}}k},
-      title        = {A theoretical and experimental analysis of {BWT} variants for string
-                      collections},
-      journal      = {CoRR},
-      volume       = {abs/2202.13235},
-      year         = {2022}}
-    
 # External resources
 
 * [Big-BWT](https://github.com/alshai/Big-BWT.git)
@@ -113,3 +86,33 @@ Please, if you use this work in an academic setting cite the following papers:
 ### Implementation and experiments:
 
 * [Davide Cenzato](https://github.com/davidecenzato) 
+
+# References and citations
+
+[1] Davide Cenzato, Zsuzsanna Lipták: A Theoretical and Experimental Analysis of BWT Variants for String Collections. CPM 2022: 25:1-25:18 ([go to the paper](https://doi.org/10.4230/LIPIcs.CPM.2022.25))
+
+[2] Davide Cenzato, Zsuzsanna Lipták: A survey of BWT variants for string collections. CoRR abs/2202.13235 (2022) ([go to the paper](https://arxiv.org/abs/2202.13235))
+
+Please, if you use this work in an academic setting cite the following papers:
+
+### conference version
+    @inproceedings{CenzatoL22,
+      author       = {Davide Cenzato and
+                      Zsuzsanna Lipt{\'{a}}k},
+      title        = {A Theoretical and Experimental Analysis of {BWT} Variants for String Collections},
+      booktitle    = {Proc. of 33rd Annual Symposium on Combinatorial Pattern Matching, {CPM} 2022},
+      series       = {LIPIcs},
+      volume       = {223},
+      pages        = {25:1--25:18},
+      year         = {2022},
+      doi          = {10.4230/LIPICS.CPM.2022.25}}
+    
+
+### extended version
+    @article{CenzatoL22ext,
+      author       = {Davide Cenzato and
+                      Zsuzsanna Lipt{\'{a}}k},
+      title        = {A survey of BWT variants for string collections},
+      journal      = {CoRR},
+      volume       = {abs/2202.13235},
+      year         = {2022}}
